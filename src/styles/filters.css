@@ -1,0 +1,43 @@
+.filters {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.filters-container {
+    margin-top: 10px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+
+.filters-container p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.media-container, 
+.time-container {
+    display: flex;
+    align-items: center;
+}
+
+.media-container input,
+.time-container input {
+    margin-left: 25px;
+    margin-right: 7px;
+}
+
+.media-container label,
+.time-container label {
+    font-size: 1.1rem;
+}
+
+
+@media screen and (max-width: 380px){
+    .filters-container {
+    margin-right: 10px;
+    }
+}

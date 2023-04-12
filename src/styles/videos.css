@@ -1,0 +1,152 @@
+body {
+    overflow-x: hidden;
+}
+
+.lightModeBgColor, .darkModeBgColor{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 95px;
+}
+
+.lightModeBgColor {
+    background-color: #d0d5d5;
+    color: rgb(25, 25, 25);
+}
+
+.darkModeBgColor {
+    background-color: #071b22;
+    color: white;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#container {
+    margin: 25px 10px 10px 10px;
+    max-width: 260px;
+    position: relative;
+}
+
+.image-container {
+    max-height: 420px;
+    position: relative;
+}
+
+#container img {
+    width: 260px;
+    height: 400px;
+    border-radius: 15px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+#container img:hover {
+    transform: scale(1.05);
+}
+
+#container h3 {
+    font-size: 1.3rem;
+    word-wrap: break-word;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+#playIcon {
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#hidden-close-trailer {
+    display: none;
+}
+
+#close-trailer {
+    position: absolute;
+    right: 21%;
+}
+
+.pale-container {
+    opacity: 0.35;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.page-item {
+    border: 1px solid gray;
+    padding: 4px 8px;
+    margin: 0 3px;
+}
+
+.active-page {
+    background-color: rgb(127, 127, 232);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load-button {
+    height: 43px;
+    width: 230px;
+    font-size: 1.3rem;
+    background-color: rgb(134, 171, 159);
+    text-transform: uppercase;
+    color: rgb(10, 39, 36);
+    margin: 2rem 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: transform;
+}
+
+.load-button:hover {
+    background-color: rgb(116, 175, 159);
+    transform: scale(1.03);
+}
+
+.no-results {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+/* Media quaries */
+@media screen and (max-width: 1440px){
+    .lightModeBgColor, .darkModeBgColor{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lightModeBgColor, .darkModeBgColor{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .lightModeBgColor, .darkModeBgColor{
+        margin-top: 80px;
+    }
+}
+
+

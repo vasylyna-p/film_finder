@@ -1,0 +1,191 @@
+
+.info-container {
+    width: 63%;
+    height: 75%;
+    position: fixed;
+    z-index: 30;
+    border-radius: 30px;
+    padding: 2rem;
+    background-color:  rgb(68, 89, 93);
+    color: white;
+    top: 19%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-image-container {
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info-image-container img {
+    max-height: 100%;
+    width: auto;
+    margin-right: 2rem;
+    border-radius: 15px;
+}
+
+.description-container {
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+.description-container h1 {
+    font-size: 1.6rem;
+    margin-bottom: 2.5rem;
+}
+
+#overview {
+    font-size: 1.2rem;
+}
+
+.description-container p {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+
+#vote-count {
+    font-size: 1rem;
+    color: lightgray;
+}
+
+#star {
+    color: rgb(239, 201, 9);
+    font-size: 1.6rem;
+    margin-left: 5px;
+}
+
+#trailer-button {
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    max-width: fit-content;
+    padding: 7px;
+}
+
+#watch-trailer-icon {
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.watch-trailer-container {
+    display: flex;
+    align-items: center;
+}
+
+#close-sign {
+    position: absolute;
+    left: 101%;
+    top: -50px;
+}
+
+/* Media quaries */
+@media screen and (max-width: 1440px) {
+    .info-container {
+        width: 65%;
+        height: 75%;
+        top: 18%;
+        padding: 1rem;
+    }
+
+    .description-container h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #overview {
+        font-size: 1.15rem;
+    }
+
+    .description-container p {
+        margin: 0.5rem 0;
+        font-size: 1.25rem;
+    }
+
+    #star {
+        font-size: 1.5rem;
+    }
+
+    .info-image-container img {
+        max-height: 85%;
+        width: auto;
+        margin-right: 1.3rem;
+    }
+
+    #close-sign {
+        position: absolute;
+        left: 101%;
+        font-size: 40px;
+        top: -25px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .info-container {
+        width: 65%;
+        height: 70%;
+        padding: 2rem;
+    }
+    .info-image-container img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info-container {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .info-container {
+        width: 90%;
+        height: 72%;
+        padding: 1rem;
+    }
+
+    #close-sign {
+        display: none;
+    }
+
+    .description-container h1 {
+        font-size: 1.4rem;
+        margin-bottom: 0.6rem;
+    }
+
+    #overview {
+        font-size: 1.1rem;
+    }
+
+    .description-container p {
+        margin: 0.4rem 0;
+        font-size: 1.2rem;
+    }
+
+    #star {
+        font-size: 1.3rem;
+    }
+
+    #release-date {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #overview {
+        font-size: 1rem;
+    }
+
+    .description-container p {
+        font-size: 1.15rem;
+    }
+
+    .description-container h1 {
+        font-size: 1.3rem;
+    }
+}

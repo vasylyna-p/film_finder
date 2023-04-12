@@ -1,0 +1,59 @@
+.player-container {
+    width: 63%;
+    height: 75%;
+    position: fixed;
+    z-index: 30;
+    top: 19%;
+}
+
+#close-sign {
+    position: absolute;
+    left: 101%;
+    top: -50px;
+    font-size: 55px;
+}
+
+
+/* Media quaries */
+@media screen and (max-width: 1440px){
+    .player-container {
+        width: 70%;
+        height: 75%;
+        top: 18%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .player-container {
+        width: 75%;
+        height: 65%;
+        top: 17%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .player-container {
+        width: 75%;
+        height: 55%;
+        top: 20%;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    .player-container {
+        width: 90%;
+        height: 45%;
+        top: 27%;
+    }
+
+    #close-sign {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .player-container {
+        height: 40%;
+    }
+}
