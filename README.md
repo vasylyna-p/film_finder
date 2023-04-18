@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Film Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Film Finder is a web application that allows users to search for movies and TV shows, view information about them, and watch trailers. The application is built using React, JavaScript, HTML, and CSS and uses The Movie Database (TMDb) API to fetch data.
 
-## Available Scripts
+Film Finder is deployed using Netlify. You can view the live application here: https://filmfinder-app.netlify.app/
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/90418810/232862519-504c18a5-894a-4fcc-b54c-fb9247b8e02d.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Displays last added movies and TV shows
+* Search for movies and TV shows
+* Displays trailer and additional information for selected movie or TV show
+* Load more button to see additional search results
+* Trending page with filters for media type and time window
+* Light and dark mode
+* Fully responsive design for different screen sizes
 
-### `npm test`
+## Technologies used 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React
+* JavaScript
+* HTML
+* CSS
 
-### `npm run build`
+## How to Use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To use the app, simply navigate to the deployed site at https://filmfinder.netlify.app/.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+From there, you can browse the latest added movies and TV shows or search for a specific movie or TV show using the search bar in the navigation bar. Clicking on a movie poster or title will show additional information, including release date, rating, overview, and trailer. You can watch trailer by clicking on Play icon or Watch Trailer button.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app also has a trending page where you can see trends and filter them by media type and time window.
 
-### `npm run eject`
+To switch between light and dark mode, click the slider button in the top right corner.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To see more results, click Load more button at the bottom of the page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to run locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the application locally, you will need to follow these steps:
+1. Clone the repository using Git: git clone https://github.com/vasylyna-p/film_finder.git
+2. Install dependencies: npm install
+- "axios": "^1.3.4"
+- "react-icons": "^4.8.0"
+- "react-player": "^2.12.0"
+- "react-router-dom": "^6.9.0"
+3. Start the development server: npm start
+4. Open your web browser and go to http://localhost:3000/ to view the application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Development Process
 
-## Learn More
+During the development of this application, I faced some challenges, such as integrating the API into the application and handling the responses. However, I was able to overcome these challenges by reading the API documentation thoroughly and experimenting with different approaches.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribution
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions to the project are always welcome. If you would like to contribute, please fork the repository and submit a pull request.
