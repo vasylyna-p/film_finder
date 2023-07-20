@@ -1,6 +1,6 @@
 # Film Finder
 
-### Film Finder is a web application that allows users to search for movies and TV shows, view information about them, and watch trailers. The application is built using React, JavaScript, HTML, and CSS and uses The Movie Database (TMDb) API to fetch data.
+Film Finder is a web application that allows users to search for movies and TV shows, view information about them, and watch trailers. The application is built using React, JavaScript, HTML, and CSS and uses The Movie Database (TMDb) API to fetch data.
 
 Film Finder is deployed using Netlify. You can view the live application here: https://filmfinder-app.netlify.app/
 
